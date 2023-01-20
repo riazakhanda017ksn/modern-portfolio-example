@@ -1,17 +1,73 @@
 .App {
   text-align: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 73%;
+  margin: 0 auto;
+  font-family: 'Montserrat';
 }
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App h1 {
+  font-size: 8rem;
+  margin: 0;
+  font-weight: 900;
 }
+
+.App h2 {
+  font-size: 4rem;
+  font-weight: 400;
+  font-family: 'Shadows Into Light', cursive;
+  margin: 20px;
+  letter-spacing: 4px;
+}
+
+.parents {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.parents span {
+  font-family: 'Shadows Into Light';
+  font-size: 19px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px)  {
+
+  .App h1 {
+    font-size: 4rem;
+    margin: 0;
+    font-weight: 600;
+  }
+  .App {
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100% !important;
+    margin: 0 auto;
+    font-family: 'Montserrat';
+}
+  .App h2 {
+    font-size: 1.9rem;
+    font-weight: 400;
+    font-family: 'Shadows Into Light', cursive;
+    margin: 20px;
+    letter-spacing: 4px;
+}
+}
+
 
 .App-header {
   background-color: #282c34;

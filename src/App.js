@@ -1,24 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import Navbar from "./Navbar";
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar />
+      <div
+        className="App"
+        data-aos="fade-down"
+        data-aos-offset="100"
+        data-aos-delay="80"
+        data-aos-duration="3000"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="false"
+        data-aos-anchor-placement="top-center"
+      >
+        <h1>HELLO</h1>
+        <h2>I AM A MERN STACK DEVELOPER</h2>
+      </div>
+    </>
   );
 }
 
