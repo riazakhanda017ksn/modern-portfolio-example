@@ -42,12 +42,100 @@
 }
 
 @media only screen and (max-width: 600px)  {
-
-  .App h1 {
-    font-size: 4rem;
+  .about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 80px 0;
+}
+.Project {
+  padding: 25px;
+  text-align: end;
+}
+.project_two {
+  background: url("https://i.ibb.co/RzHbc2J/RSM-Eventor-1.png") no-repeat;
+  background-size: cover;
+  height: 50vh;
+  transition: 0.3s ease-in-out;
+  background-position: top;
+  cursor: pointer;
+  transition: all 8s ease;
+  position: relative;
+}
+  h1 {
+    font-size: 3rem !important;
     margin: 0;
     font-weight: 600;
   }
+  .Project {
+    padding: 30px !important;
+    text-align: end;
+}
+.Project h3 {
+  font-size: 18px !important;
+  line-height: 33px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.icon-part {
+  align-items: center;
+  display: flex;
+  height: 50vh !important;
+  justify-content: center;
+  position: relative;
+  z-index: 2;
+}
+.project_two {
+  background: url("https://i.ibb.co/RzHbc2J/RSM-Eventor-1.png") no-repeat;
+  background-size: cover;
+  height: 50vh !important;
+  transition: 0.3s ease-in-out;
+  background-position: top;
+  cursor: pointer;
+  transition: all 8s ease;
+  position: relative;
+}
+  .blog_item h2 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    margin: 10px 0;
+}
+.last-service h2 {
+  font-size: 38px;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  font-weight: 800;
+  margin: 10px 0 !important;
+}
+.last-service {
+  width: 100% !important;
+  margin: 0 auto;
+}
+.services {
+  padding-bottom: 100px !important;
+  padding: 0 30px !important;
+}
+.blog_item {
+  padding: 30px 0;
+}
+.services h3 {
+  font-size: 19px;
+  line-height: 29px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.blog-parent {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 44px;
+  grid-row-gap: 0px;
+  padding: 0 24px;
+}
   .App {
     text-align: center;
     height: 100vh;
@@ -59,12 +147,154 @@
     margin: 0 auto;
     font-family: 'Montserrat';
 }
-  .App h2 {
-    font-size: 1.9rem;
+  h2 {
+    font-size: 1.9rem !important;
     font-weight: 400;
     font-family: 'Shadows Into Light', cursive;
     margin: 20px;
     letter-spacing: 4px;
+}
+.parent-item {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr) !important;
+  grid-template-rows: 1fr;
+  grid-column-gap: 48px;
+  grid-row-gap: 0px;
+}
+.parent-item {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 48px;
+  grid-row-gap: 0px;
+}
+.last-service {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 194px;
+}
+.service {
+  margin-bottom: 151px;
+}
+
+.projects__container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr) !important;
+  grid-template-rows: 1fr;
+  grid-column-gap: 50px;
+  grid-row-gap: 50px;
+}
+.project_ {
+  background: url("https://i.ibb.co/sy4x9QY/RSM-E-COMMERCE.png") no-repeat;
+  background-size: cover;
+  height: 40vh !important;
+  background-position: top;
+  cursor: pointer;
+  transition: all 6s ease;
+  position: relative;
+}
+.project_two {
+  background: url("https://i.ibb.co/RzHbc2J/RSM-Eventor-1.png") no-repeat;
+  background-size: cover;
+  height: 40vh;
+  transition: 0.3s ease-in-out;
+  background-position: top;
+  cursor: pointer;
+  transition: all 8s ease;
+  position: relative;
+}
+.blog-parent {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr)!important;
+  grid-template-rows: 1fr;
+  grid-column-gap: 44px;
+  grid-row-gap: 0px;
+}
+.about img {
+  width: 100%;
+  height: 100%;
+}
+.services h3 {
+  font-size: 20px !important;
+  line-height: 32px !important;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.Project {
+  padding: 16px;
+  text-align: end;
+}
+.Project h3 {
+  font-size: 22px;
+  line-height: 31px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.Project h3 {
+  font-size: 34px;
+  line-height: 30px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.blog {
+  padding: 10px !important;
+}
+.Project h3 {
+  font-size: 34px;
+  line-height: 30px !important;
+  font-weight: 500 !important;
+  letter-spacing: 1px;
+}
+.blog h3 {
+  margin: 20px !important;
+  font-weight: 600;
+  letter-spacing: 0px;
+  font-size: 16px !important;
+  line-height: 30px;
+  text-align: inherit;
+}
+.blog h3 {
+  font-size: 34px;
+  line-height: 28px !important;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.projects__container {
+  padding: 20px 0 !important;
+}
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px 35px !important;
+}
+.about-description p {
+  width: 100%;
+  margin: 0 auto;
+  line-height: 30px;
+  font-weight: 400;
+  font-size: 20px;
+}
+.about-description p {
+  width: 100%;
+  margin: 0 auto;
+  line-height: 30px;
+  font-weight: 400;
+  font-size: 17px;
+  text-align: initial;
+}
+
+.services {
+  padding-bottom: 100px !important;
+  padding: 0 26px;
+}
+.service {
+  margin-top: 10px !important;
+}
+.last-service {
+  width: 100% !important;
+  margin: 0 auto;
 }
 }
 

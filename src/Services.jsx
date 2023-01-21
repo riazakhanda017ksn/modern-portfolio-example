@@ -3,7 +3,17 @@ import "./Services.scss";
 
 const Services = () => {
   return (
-    <div className="services">
+    <div
+      className="services"
+      data-aos="fade-up"
+      data-aos-offset="90"
+      data-aos-delay="80"
+      data-aos-duration="1400"
+      data-aos-easing="ease-in-out"
+      data-aos-mirror="false"
+      data-aos-once="false"
+      data-aos-anchor-placement="top-center"
+    >
       <h1>MY SERVICES</h1>
       <h3>
         I provide three types of services including web development,

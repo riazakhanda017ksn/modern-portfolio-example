@@ -1,0 +1,283 @@
+.Project {
+    padding: 100px;
+    text-align: end;
+}
+
+.Project h1 {
+    font-size: 8rem;
+    margin: 0;
+    font-weight: 900;
+}
+.Project h3 {
+    font-size: 34px;
+    line-height: 57px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.projects__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) ;
+    grid-template-rows: 1fr;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+}
+
+.Projects__container{
+    color: #FFF;
+    
+}
+.text-align-end a {
+    text-decoration: none;
+    text-align: center;
+    color: black !important;
+    display: block;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.project_{
+    background: url('https://i.ibb.co/sy4x9QY/RSM-E-COMMERCE.png')no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: top;
+    cursor: pointer;
+    transition: all 6s ease;;
+    position: relative;
+
+}
+.project_::before{
+ content: '';
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ background: rgba(255, 255, 255, 0.782);
+ opacity: 0;
+ transition: .3s ease-in-out;
+}
+.project_:hover{
+    background-position: bottom;
+}
+.project_:hover::before{
+    opacity: 1;
+}
+.project_two{
+    background: url('https://i.ibb.co/RzHbc2J/RSM-Eventor-1.png')no-repeat;
+    background-size: cover;
+    height: 100vh;
+    transition: .3s ease-in-out;
+    background-position: top;
+    cursor: pointer;
+    transition: all 8s ease;;
+    position: relative;
+
+}
+.project_two::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.782);
+    opacity: 0;
+    transition: .3s ease-in-out;
+   }
+   .project_two:hover::before{
+    opacity: 1;
+}
+.project_two:hover{
+    background-position: bottom;
+}
+
+.single-project{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr) !important;
+    grid-template-rows: 1fr;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+}
+.text-of-projects {
+    padding-top: 100px;
+    color: #FFFF;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.text-of-projects h3 {
+    font-size: 40px;
+    margin: 20px 0;
+    font-weight: 300;
+}
+.text-of-projects h1 {
+    font-size: 90px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: 'Mulish', sans-serif;
+    display: inline-block;
+    position: relative;
+    left: 0%;
+    margin: 0;
+    padding: 0;
+}
+
+.text-of-projects h1 span {
+    -webkit-text-stroke: 1px white;
+    color: transparent;
+    font-size: 90px;
+}
+.text__of_projects{
+    padding-bottom: 100px;
+}
+h3.change-project {
+    transform: translateX(50%);
+    display: block;
+    overflow: hidden;
+    transition: all 3s ease;
+}
+
+.icon-part {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+}
+
+.icon-part {
+    flex-direction: column!important;
+}
+
+.two-live-link {
+    display: flex;
+    margin-bottom: 50px;
+}
+.icon-part a {
+    align-items: center;
+    color: #000;
+    display: flex;
+    font-size: 13px;
+    justify-content: center;
+    margin: 0 40px;
+    transition: .3s ease-in-out;
+    visibility: hidden;
+    text-decoration: none;
+}
+.icon-part a svg {
+    font-size: 18px;
+    margin-right: 6px;
+}
+.project_:hover .icon-part a, .project_two:hover .icon-part a {
+    border-bottom: 1px solid #000;
+    visibility: visible;
+}
+.icon-part a {
+    align-items: center;
+    color: #000;
+    display: flex;
+    font-size: 13px;
+    justify-content: center;
+    margin: 0 40px;
+    transition: .3s ease-in-out;
+    visibility: hidden;
+}
+
+.projects__container {
+    padding: 80px 0;
+}
+
+
+
+.css-rq0im9 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    background-color: rgb(18, 17, 17);
+    border: 2px solid transparent;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 11px 15px -7px, rgba(0, 0, 0, 0.14) 0px 24px 38px 3px, rgba(0, 0, 0, 0.12) 0px 9px 46px 8px;
+    padding: 48px;
+}
+
+.css-919eu4 {
+    position: fixed;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    inset: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    -webkit-tap-highlight-color: transparent;
+    z-index: -1;
+}
+.project-name img {
+    height: 350px;
+    margin: 25px 0;
+    object-fit: cover;
+    width: 100%;
+}
+.project-name h1 {
+    font-size: 30px;
+    font-weight: 200;
+    text-align: center;
+}
+.project-name h3 {
+    font-family: Montserrat;
+    font-weight: 200;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.project-name p span {
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 200;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.project-name p {
+    font-size: 14px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    line-height: 24px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.project-name h1 {
+    color: black;
+    font-weight: 500;
+}
+
+.project-name h3 {
+    text-align: center;
+    color: black;
+    font-weight: 400;
+}
+
+.project-name p span {
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.project-name p {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 24px;
+    margin-bottom: 30px;
+    text-align: left;
+    color: black;
+    position: relative;
+}
+.project-name a {
+    color: black;
+}

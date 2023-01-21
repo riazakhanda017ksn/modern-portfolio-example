@@ -5,6 +5,9 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import About from "./About";
 import Services from "./Services";
+import Blog from "./Blog";
+import Project from "./Project";
+import Footer from "./Footer";
 AOS.init();
 
 function App() {
@@ -27,6 +30,9 @@ function App() {
       </div>
       <About />
       <Services />
+      <Project />
+      <Blog />
+      <Footer />
     </>
   );
 }

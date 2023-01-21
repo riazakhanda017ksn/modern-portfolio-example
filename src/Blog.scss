@@ -1,0 +1,111 @@
+.blog{
+    padding: 100px;
+}
+
+.blog h3 {
+    font-size: 34px;
+    line-height: 57px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.blog h3 {
+    margin: 20px;
+    font-weight: 600;
+    letter-spacing: 0px;
+}
+.blog h1 {
+    font-size: 8rem;
+    margin: 0;
+    font-weight: 900;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.blog-parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+
+    .blog_item img {
+        width: 100%;
+        object-fit: cover;
+        height: 350px;
+    }
+
+    .blog-parent {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 44px;
+        grid-row-gap: 0px;
+    }
+
+
+    .blog_item {
+        padding: 80px 0;
+    }
+
+    .blog_item h2 {
+        font-size: 26px;
+        font-weight: 600;
+        line-height: 36px;
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+    .blog_item h2 {
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 36px;
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+    .blog_item p {
+        font-size: 16px;
+        line-height: 23px;
+        font-weight: 400;
+        color: #242424;
+    }
+    .text-end {
+        text-align: end;
+    }
+
+    .text-end a {
+        color: black;
+        font-weight: 500;
+        font-size: 14px;
+        letter-spacing: 1px;
+        text-decoration: none;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+
+    .footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 30px;
+        border-top: 1px solid #0000005c;
+        background: black;
+    }
+
+    .icon-items a {
+        display: inline-block;
+        color: #FFFF;
+        margin-right: 18px;
+        font-size: 20px;
+    }
+    .footer p {
+        color: #FFF;
+        font-size: 14px;
+    }
+
+    .footer p a{
+        color: #FFF;
+    }
