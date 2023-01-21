@@ -3,6 +3,8 @@ import "./App.css";
 import Navbar from "./Navbar";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import About from "./About";
+import Services from "./Services";
 AOS.init();
 
 function App() {
@@ -23,6 +25,8 @@ function App() {
         <h1>HELLO</h1>
         <h2>I AM A MERN STACK DEVELOPER</h2>
       </div>
+      <About />
+      <Services />
     </>
   );
 }

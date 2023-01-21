@@ -1,0 +1,35 @@
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 150px 0;
+}
+
+.about-description {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.about-description h1 {
+    font-size: 8rem;
+    margin: 0;
+    font-weight: 900;
+}
+
+.about-description h2 {
+    font-size: 4rem;
+    font-weight: 400;
+    font-family: 'Shadows Into Light', cursive;
+    margin: 20px;
+    letter-spacing: 4px;
+}
+
+.about-description p {
+    width: 77%;
+    margin: 0 auto;
+    line-height: 30px;
+    font-weight: 400;
+    font-size: 20px;
+
+}
