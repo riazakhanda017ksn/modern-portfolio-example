@@ -27,17 +27,7 @@ const Blog = () => {
     },
   ];
   return (
-    <div
-      className="blog"
-      data-aos="fade-up"
-      data-aos-offset="90"
-      data-aos-delay="80"
-      data-aos-duration="1900"
-      data-aos-easing="ease-in-out"
-      data-aos-mirror="false"
-      data-aos-once="false"
-      data-aos-anchor-placement="top-center"
-    >
+    <div className="blog">
       <h1 className="text-center">BLOG'S</h1>
       <h3 className="text-center">
         Here are some of my blogs including understand <br />

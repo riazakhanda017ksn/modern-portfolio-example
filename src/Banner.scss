@@ -1,0 +1,121 @@
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden ;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.banner img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    animation: App 45s ease-in infinite ;
+}
+@keyframes App {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+.menu h1 {
+    margin: 0;
+    padding: 10px 0;
+    transition: all 3s ease;
+    font-family: 'Montserrat';
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+
+.banner h2 {
+    font-size: 65px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+
+.banner h3 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.banner-content {
+    position: relative;
+    bottom: 340px;
+    background: no-repeat;
+    text-align: center;
+}
+.content{
+    width: 1500px;
+    overflow: hidden !important;
+    position: relative;
+    bottom: 60px;
+}
+.banner img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+    top: 70px;
+}
+.download {
+    text-align: center;
+    padding: 30px;
+    border: 2px solid #030303;
+}
+
+.download svg{
+    font-size: 60px ;
+    color: #030303;
+}
+
+.div2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    border: 1px solid black;
+    margin-left: 30px;
+}
+
+.image-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+    border: 1px solid black;
+    margin:0 30px;
+    width: 100%;
+}
+
+.social ul {
+    list-style: none;
+    display: flex;
+}
+.social ul li{
+    margin-right: 10px;
+}
+.social ul li a{
+    font-size: 20px;
+    color: #030303;
+}
+.social {
+    position: relative;
+    bottom: 80px;
+}
+
+.social h5{
+    font-size: 14px;
+}

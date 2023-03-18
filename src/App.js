@@ -8,30 +8,15 @@ import Services from "./Services";
 import Blog from "./Blog";
 import Project from "./Project";
 import Footer from "./Footer";
+import Banner from "./Banner";
 AOS.init();
 
 function App() {
   return (
     <>
       <Navbar />
-      <div
-        className="App"
-        data-aos="fade-down"
-        data-aos-offset="100"
-        data-aos-delay="80"
-        data-aos-duration="3000"
-        data-aos-easing="ease-in-out"
-        data-aos-mirror="true"
-        data-aos-once="false"
-        data-aos-anchor-placement="top-center"
-      >
-        <h1>HELLO</h1>
-        <h2>I AM A MERN STACK DEVELOPER</h2>
-      </div>
+      <Banner />
       <About />
-      <Services />
-      <Project />
-      <Blog />
       <Footer />
     </>
   );

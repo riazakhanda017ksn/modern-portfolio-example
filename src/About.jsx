@@ -1,39 +1,63 @@
 import React from "react";
 import "./About.scss";
+import { FiDownload } from "react-icons/fi";
+import { ImLinkedin } from "react-icons/im";
+import { BsGithub, BsFacebook } from "react-icons/bs";
 
 const About = () => {
   return (
-    <div className="about">
-      <div
-        className="about-image"
-        data-aos="fade-up"
-        data-aos-offset="100"
-        data-aos-delay="100"
-        data-aos-duration="2000"
-        data-aos-easing="ease-in-out"
-      >
-        <img src="https://i.ibb.co/gmWdH2T/riaz2-2a31e694.jpg" alt="" />
-      </div>
-      <div
-        className="about-description"
-        data-aos="fade-down"
-        data-aos-offset="100"
-        data-aos-delay="80"
-        data-aos-duration="3000"
-        data-aos-easing="ease-in-out"
-        data-aos-mirror="false"
-        data-aos-once="false"
-        data-aos-anchor-placement="top-center"
-      >
-        <h1>ABOUT ME</h1>
-        <h2>A MERN STACK DEVELOPER</h2>
-        <p>
-          Hi there, I'm Riaz Ahmed. I work in the field of Web Development, and
-          I am very passionate and dedicated to what I do. With 2 years
-          experience as a professional Web developer, I have acquired the skills
-          and knowledge necessary to make your project a success.I enjoy every
-          step of the design process, from discussion and collaboration.
-        </p>
+    <div className="about-container">
+      <div class="parent">
+        <div class="div1">
+          <h4>ABOUT ME</h4>
+          <h2>
+            {" "}
+            <span>MERNSTACK</span> Developer
+          </h2>
+          <p>
+            Hi there, I'm <span>Riaz Ahmed</span> . I work in the field of Web
+            Development, and I am very passionate and dedicated to what I do.
+            With 2 years experience as a professional Web developer, I have
+            acquired the skills and knowledge necessary to make your project a
+            success.I enjoy every step of the design process, from discussion
+            and collaboration.
+          </p>
+          <br />
+          <div className="download">
+            <a href="">
+              <FiDownload /> <br />
+              <h2>DOWNLOAD CV</h2>
+            </a>
+          </div>
+        </div>
+        <div class="div2">
+          <div className="image-div">
+            <img src="https://i.ibb.co/gmWdH2T/riaz2-2a31e694.jpg" alt="" />
+            <div className="social">
+              <h5>RIAZ AHMED AKHANDA</h5>
+              <ul>
+                <li>
+                  <a href="">
+                    {" "}
+                    <BsFacebook />{" "}
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    {" "}
+                    <ImLinkedin />{" "}
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    {" "}
+                    <BsGithub />{" "}
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

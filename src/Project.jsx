@@ -30,17 +30,7 @@ const Project = () => {
   };
 
   return (
-    <div
-      className="Project"
-      data-aos="fade-right"
-      data-aos-offset="90"
-      data-aos-delay="80"
-      data-aos-duration="1900"
-      data-aos-easing="ease-in-out"
-      data-aos-mirror="false"
-      data-aos-once="false"
-      data-aos-anchor-placement="top-center"
-    >
+    <div className="Project">
       <h1>PROJECT'S</h1>
       <h3>
         Some of my recent Projects including{" "}
